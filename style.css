@@ -275,7 +275,28 @@ gap: 1em;
     font-weight: 400;
     font-size: 11px;
     line-height: 20px;
+    text-align: justify;
+    font-weight: 500;
 }
+.blog-items .email{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: justify;
+    font-weight: 500;
+}
+.blog-items h3{
+    padding: 0.5em;
+    border-left: 5px solid var(--lima);
+    font-size: 14px;
+    font-weight: 600;
+}.blog-items a{
+    text-decoration: underline;
+    color: var(--morado);
+    font-weight: bold;
+}
+
 .item-col{
     width: 300px;
     height: 450px;
@@ -287,6 +308,7 @@ line-height: 26px;
 }
 .item-col h3{
     margin-top: 1em;
+    font-size: 22px;
 }
 .blog-img{
     width: 100%;
@@ -302,6 +324,7 @@ line-height: 26px;
 }
 .input{
     height: 40px;
+    border: 2px solid gray;
 }
 .input::placeholder{
     padding-left: 1em;
